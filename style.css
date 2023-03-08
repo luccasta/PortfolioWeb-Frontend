@@ -1,24 +1,24 @@
 * {
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
 }
 
 div#profile.container {
- margin: 10px;
- border-radius: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+ border-radius: 20px 20px;
  padding: 25px;
- border: 10px  gray;
+ border: 20px  gray;
 }
 
 div#logo {
- display: flex;
  position: relative;
 }
 
 img#banner {
-    width: 2500px;
+    width: fit-content;
     height: 550px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 div#profile-img img {
@@ -36,7 +36,7 @@ div#user-data {
 
 div#name {
     margin-top: 65px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 38px;
 }
 
@@ -44,13 +44,15 @@ div#pers-inf {
     margin-top: 10px;
     margin-left: 70px;
     font-size: 24px;
+    display: inline-block;
+}
+
+div#company-logo {
+    display: inline-block;
+    margin-left:  600px;
 }
 
 div#company-logo img {
-    right: 200px;
-    bottom: -80px;
-    width: 70px;
+     width: 70px;
     height: 30px;
-    position: absolute;
 }
-
