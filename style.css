@@ -4,17 +4,53 @@
 }
 
 div#profile.container {
- margin: 5px 5px;
+ margin: 10px;
  border-radius: 20px;
- padding: 10px;
+ padding: 25px;
+ border: 10px  gray;
 }
 
 div#logo {
  display: flex;
+ position: relative;
 }
 
 img#banner {
-    width: 1080px;
-    height: 400px;
+    width: 2500px;
+    height: 550px;
     border-radius: 20px;
 }
+
+div#profile-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: -75px;
+}
+
+div#user-data {
+    margin-top: 65px;
+}
+
+div#name {
+    margin-top: 65px;
+    margin-left: 20px;
+    font-size: 38px;
+}
+
+div#pers-inf {
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 24px;
+}
+
+div#company-logo img {
+    right: 200px;
+    bottom: -80px;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+}
+
