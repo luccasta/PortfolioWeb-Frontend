@@ -34,8 +34,12 @@ div#user-data {
     margin-top: 65px;
 }
 
+div#editname {
+    display: flex;
+}
+
 div#name {
-    margin-top: 65px;
+    margin-top: 0px;
     margin-left: 30px;
     font-size: 38px;
 }
@@ -43,16 +47,24 @@ div#name {
 div#pers-inf {
     margin-top: 10px;
     margin-left: 70px;
+    width: 700px;
+    margin-right: 20px;
     font-size: 24px;
     display: inline-block;
 }
 
 div#company-logo {
+    margin-top: -20px;
     display: inline-block;
-    margin-left:  600px;
 }
 
 div#company-logo img {
-     width: 70px;
+    width: 70px;
     height: 30px;
+}
+
+div#editbutton1 i {
+    color: black;
+    margin-left: 0px;
+    margin-top: 0px;
 }
