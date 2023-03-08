@@ -6,9 +6,9 @@ body {
 div#profile.container {
 /* margin-left: 10px;
  margin-right: 10px;*/
-margin-bottom: 5px;
+ margin-bottom: 5px;
  border-radius: 20px 20px;
- padding: 0px 10px;
+ padding: 0px 0px;
  border: 1px solid black;
 }
 
@@ -50,18 +50,31 @@ div#name {
     font-size: 38px;
 }
 
+div#editbutton1 i {
+    color: black;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+div#editpersinf {
+    display: flex;
+}
+
 div#pers-inf {
     margin-top: 10px;
-    margin-left: 70px;
-    width: 700px;
-    margin-right: 20px;
+    margin-left: 5%;
+    width: 45%;
+    margin-right: 5%;
     font-size: 24px;
-    display: inline-block;
+}
+
+div#moreinfpers {
+     width: 25%;
 }
 
 div#company-logo {
-    margin-top: -20px;
-    display: inline-block;
+    width: 30px;
+    margin-top: 0px;
 }
 
 div#company-logo img {
@@ -69,8 +82,90 @@ div#company-logo img {
     height: 30px;
 }
 
-div#editbutton1 i {
+div#allbuttons {
+    display: flex;
+    margin-inline: 5px;
+    margin: 5px 0px;
+}
+
+
+
+div#about.container {
+     margin-bottom: 5px;
+     border-radius: 20px 20px;
+     padding: 0px 0px;
+     border: 1px solid black;
+}
+
+div#addmoreabout{
+    display: flex;
+}
+
+div#addmoreabout h1 {
+    width: 95%;
+}
+
+
+div#profesional-info.container {
+    margin-bottom: 5px;
+    border-radius: 20px 20px;
+    padding: 0px 0px;
+    border: 1px solid black;
+}
+
+div#addexperience{
+    display: flex;
+}
+
+div#addexperience h1 {
+    width: 95%;
+}
+
+div.addbutton i {
     color: black;
-    margin-left: 0px;
-    margin-top: 0px;
+}
+
+div.editprofinfo {
+    display: flex;
+    margin: 5px 10px;
+}
+
+div.prev-icon {
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+div.prev-icon img {
+    width: 50%;
+    height: 20%;   
+}
+
+div.prev-info {
+    width: 85%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.editdelete i {
+    color: black;
+}
+
+div#addeducation{
+    display: flex;
+}
+
+div#addeducation h1{
+    width: 95%;
+}
+
+
+
+
+
+div#skills.container {
+    margin-bottom: 5px;
+    border-radius: 20px 20px;
+    padding: 0px 0px;
+    border: 1px solid black;
 }
